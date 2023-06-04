@@ -2,6 +2,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior:smooth;
+    overflow: hidden;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -11,7 +12,8 @@ html{
     scroll-margin-top: 12rem;
   }
 
-body {
+ body {
+  overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -24,9 +26,10 @@ body {
     background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+   }
   
    
-}
+
 
 img{
   max-width: 100%;

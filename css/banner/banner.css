@@ -1,0 +1,131 @@
+.banner{
+    
+    background-image: url(/imagenes/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    max-width: 100%;
+    min-height: 19.2rem;
+    max-height: 35.2rem;
+   
+   
+}
+
+.banner__contenido{
+    margin-left: 48rem;  
+    margin-top: 8rem;
+
+}
+
+
+.banner__titulo{
+    width: 751px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+
+    color: #ffffff;
+}
+
+.banner__descripcion{
+    width: 751px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+
+.banner__consolas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;    
+    width: 118px;
+    height: 40px;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
+
+
+}
+
+.banner__consolas:hover{
+    cursor: pointer;
+    background-color:  #104d9d;
+}
+
+
+@media (min-width: 768px) {
+    .banner{
+        height: 35.2rem;
+        background-image: url(/imagenes/banner.jpg);
+        background-size: cover;
+        background-position: center;
+       
+       
+    }
+    
+    .banner__contenido{
+        position: absolute;
+        margin: 0;
+        left: 5rem;
+        top: 25rem;
+    }
+    
+    
+    .banner__titulo{
+        width: 751px;
+        height: 61px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+        color: #ffffff;
+    }
+    
+    .banner__descripcion{
+        width: 751px;
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #ffffff;
+    
+    }
+    
+    .banner__consolas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        width: 129px;
+        height: 51px;
+        background-color: #2A7AE4;
+        color: #ffffff;
+        border: none;
+        font-size: 1rem;
+        font-weight: 5rem;
+    
+    
+    }
+    
+    .banner__consolas:hover{
+        cursor: pointer;
+        background-color:  #104d9d;
+    }
+}

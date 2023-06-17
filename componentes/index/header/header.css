@@ -1,0 +1,439 @@
+
+.encabezado{
+    
+    height: 11.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+
+
+
+.busqueda{
+    order: 3;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+    position:relative
+   
+    
+}
+
+
+
+.busqueda__btn{
+    position: absolute;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #7a7c7f;
+    cursor: pointer;
+    width: 4.3rem;
+    height: 4.3rem;
+    margin-right: 1.5rem;
+    background-color: #7a7c7f;
+    border-radius: 100%;
+    align-items: center;
+    align-content: center;
+    transition: all 0.7 ease;
+   
+   
+    
+    
+}
+
+.busqueda__btn :hover{
+    cursor: pointer;
+    background-color: #2A7AE4;
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 100%;
+   
+    
+    
+   
+}
+
+.busqueda__btn i{
+    color: white;
+    transition: all .25s ease;
+    line-height: 4rem;
+    
+}
+
+
+
+
+
+.busqueda__btn:hover{
+    transition: all 0.7 ease;
+   
+
+    transform: rotate(-360deg);
+    
+    
+    
+
+}
+
+
+
+.encabezado__logo{
+    width:10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    
+}
+
+.busqueda__input{
+    position: absolute;
+  
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 8px 16px;
+    width: 0;
+    height: 40px;
+    background: #a4a1a1;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;     
+    transition: all 0.6 ease;
+   
+    opacity: 0;
+    
+   
+}
+
+.busqueda:hover .busqueda__input{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 23.5rem;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;  
+    transition: all .25s;
+       
+    transform: translate(-19rem);
+    opacity: 1;
+}
+
+.busqueda .busqueda__input:focus{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 24rem;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;  
+    transition: all .25s;
+     
+    transform: translate(-19rem);
+    opacity: 1;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+    
+.encabezado{
+    
+    height: 11.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+
+
+
+.busqueda{
+    order: 2;
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    margin-right: 28rem;
+    
+   
+    
+}
+
+
+
+.busqueda__btn{
+    position:absolute;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #7a7c7f;
+    cursor: pointer;
+    width: 4.3rem;
+    height: 4.3rem;
+    margin-right: 1.5rem;
+    background-color: #7a7c7f;
+    border-radius: 100%;
+    right: -24.58rem;
+    top: -.2rem;
+   
+    
+    
+}
+
+.busqueda__btn :hover{
+    cursor: pointer;
+    
+   
+}
+
+.busqueda__btn i{
+    color: white;
+    transition: all .25s ease;
+    line-height: 4rem;
+}
+
+
+.busqueda:hover i{
+    color: #eaeaea;
+    transform: none;
+    transition: all 0.7 ease;
+
+}
+
+
+
+.encabezado__logo{
+    width:10rem;
+    height: 2.8rem;
+    margin-left: 1rem;
+    
+}
+
+.busqueda__input{
+   
+    transform: none;   
+    
+    flex-direction: row;
+    
+    padding: 8px 16px;
+    gap: 8px;
+    min-width: 27.2rem;
+    width:auto;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;      
+  
+    opacity: 1;
+   
+    
+    
+   
+}
+
+.busqueda:hover .busqueda__input{
+  
+    
+    flex-direction: row;
+    transform: none;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 27.2rem;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;  
+    
+     
+   
+    opacity: 1;
+}
+
+.busqueda .busqueda__input:focus{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 27.2rem;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.28rem;  
+    transition: all .25s;
+  
+    transform: none;
+    opacity: 1;
+}   
+    
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1440px) {
+    .encabezado{
+    
+        height: 11.5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+      
+    }
+    
+    
+    
+    
+    .busqueda{
+        order: 2;
+        width: 39.3rem;
+        height: 4rem;
+        display: inline-block;
+        margin-right: 28rem;
+        
+       
+        
+    }
+    
+    
+    
+    .busqueda__btn{
+        position:absolute;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #7a7c7f;
+        cursor: pointer;
+        width: 4.3rem;
+        height: 4.3rem;
+        margin-right: 1.5rem;
+        background-color: #7a7c7f;
+        border-radius: 100%;
+        left: 27rem;
+        top: -.2rem;
+       
+        
+        
+    }
+    
+    .busqueda__btn :hover{
+        cursor: pointer;
+        
+       
+    }
+    
+    .busqueda__btn i{
+        color: white;
+        transition: all .25s ease;
+        line-height: 4rem;
+    }
+    
+    
+    .busqueda:hover i{
+        color: #eaeaea;
+        transform: none;
+        transition: all 0.7 ease;
+    
+    }
+    
+    
+    
+    .encabezado__logo{
+        width:17.6rem;
+        height: 5rem;
+        margin-left: 15.2rem;
+        
+    }
+    
+    .busqueda__input{
+       
+        transform: none;           
+        flex-direction: row;        
+        padding: 8px 16px;
+        gap: 8px;
+        min-width: 39.3rem;
+        width: 100%;
+        width:auto;
+        height: 40px;
+        background: #eaeaea;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-size: 1.28rem; 
+        margin-left: -8rem;     
+      
+        opacity: 1;
+       
+        
+        
+       
+    }
+    
+    .busqueda:hover .busqueda__input{
+      
+        
+        flex-direction: row;
+        transform: none;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 27.2rem;
+        height: 40px;
+        background: #eaeaea;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-size: 1.28rem;  
+        
+         
+       
+        opacity: 1;
+    }
+    
+    .busqueda .busqueda__input:focus{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 27.2rem;
+        height: 40px;
+        background: #eaeaea;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-size: 1.28rem;  
+        transition: all .25s;
+      
+        transform: none;
+        opacity: 1;
+    }   
+}
+
+
+

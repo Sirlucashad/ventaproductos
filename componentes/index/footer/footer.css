@@ -107,12 +107,13 @@
     .footer .icono{
        
         margin: 0 auto;
-        margin-top: 3rem;
+      
         
         
     }
     
     .footer .icono img{
+       
         width: 17.6rem;
         min-height: 5rem;
         
@@ -125,9 +126,7 @@
         align-items: center;
         justify-content: center;
         padding: 0px;
-        gap: 24px;
-        width: 176px;
-        height: 234px;
+        
         text-align: center;
         margin-bottom: 2.5rem;
         margin-top: 0;
@@ -135,6 +134,19 @@
         
     
         
+    }
+
+    .secciones__links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 176px;
+        height: 234px;
+        text-align: center;
+       
+        font-size: 1.2rem;
     }
     
     .footer__secciones a{
@@ -198,6 +210,7 @@
         align-items: center; 
         min-width: 36rem;
         min-height: 36.4rem; 
+        height: auto;
         max-width: 100%;
         background: #EAF2FD;
      
@@ -221,7 +234,7 @@
     
     .footer__secciones{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 0px;
@@ -252,6 +265,75 @@
     .footer__secciones a:hover{
         color: #2A7AE4;
         cursor: pointer;
+    }
+   }
+
+    @media (min-width: 1140px) {
+        .footer{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+           
+            align-items: center; 
+            min-width: 36rem;
+            min-height: 36.4rem; 
+            max-width: 100%;
+            background: #EAF2FD;
+         
+           
+        }
+        
+        .footer .icono{
+           
+            margin: 0 auto;
+            margin-top: 3rem;
+            height: 30rem;
+            width: 20rem;
+            
+            
+        }
+        
+        .footer .icono img{
+            width: 17.6rem;
+            min-height: 5rem;
+            
+           
+        }
+        
+        .footer__secciones{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+            width: auto;
+            height: 234px;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            margin-top: 0;
+            font-size: 1.6rem;
+            
+        
+            
+        }
+        
+        .footer__secciones a{
+            text-decoration: none;
+            color: #464646;    
+            width: 176px;
+            height: 19px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font: 1.6rem;
+            line-height: 19px;
+        }
+        
+        .footer__secciones a:hover{
+            color: #2A7AE4;
+            cursor: pointer;
+        }
+
     }
     
     

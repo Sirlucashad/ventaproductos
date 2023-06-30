@@ -60,6 +60,7 @@
     color: white;
     transition: all .25s ease;
     line-height: 4rem;
+    transition: all 0.7 ease;
     
 }
 
@@ -67,8 +68,8 @@
 
 
 
-.busqueda__btn:hover{
-    transition: all 0.7 ease;
+.busqueda__btn:hover i{
+  
    
 
     transform: rotate(-360deg);
@@ -208,13 +209,14 @@
     color: white;
     transition: all .25s ease;
     line-height: 4rem;
+    transform: all 0.7 ease;
 }
 
 
 .busqueda:hover i{
     color: #eaeaea;
     transform: none;
-    transition: all 0.7 ease;
+    transform: rotate(-360deg);
 
 }
 
@@ -351,13 +353,14 @@
         color: white;
         transition: all .25s ease;
         line-height: 4rem;
+        transition: all 0.7 ease;
     }
     
     
     .busqueda:hover i{
         color: #eaeaea;
-        transform: none;
-        transition: all 0.7 ease;
+        transform: rotate(-360deg);
+        
     
     }
     

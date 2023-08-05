@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="./componentes/index/productos/productos.css">
     <link rel="stylesheet" href="./componentes/index/formulario-contacto/formulario-contacto.css">
     <link rel="stylesheet" href="./componentes/index/footer/footer.css">
-    <link rel="stylesheet" href="./componentes/adminagregarproducto/formulario/formulario.css">
-    <link rel="stylesheet" href="./componentes/admineditar/formulario.css">
+    <link rel="stylesheet" href="./componentes/adminindex/productos.css">
     
 </head>
 <body>
@@ -33,49 +32,56 @@
                 <div class="busqueda__btn" >
                     <i class="fa-solid fa-magnifying-glass"></i>        
                 </div>           
-            </div>              
-              
+             
+         </div> 
+          
             
         
         
     </header>
 
-
-    <div class="editar__formulario">
-        <legend class="form__legend">Actualizar producto
-        <form class="formulario" action="">
-            <label class="label__imagen" for="imagen">
-                <span>Url de imágen</span>
-             <input class="form__imagen" type="text" id="imagen" required><br/>
-            </label>
-            <label class="label__categoria" for="categoria">
-                <span>Categoría</span>
-                <select class = "form__categoria" name="categoria" id="categoria" required>
-                    <option value=""></option>
-                    <option value="1">Star Wars</option>
-                    <option value="2">Consolas</option>
-                    <option value="3">Diversos</option>
-                  </select>
-            </label><br/>
-            <label class="label__titulo" for="titulo">
-                <span>Título</span>
-             <input class="form__titulo" type="text" id="titulo" required ><br/>
-            </label>
-            <label class="label__valor" for="valor">
-                <span>Valor</span>
-             <input class="form__valor" type="text" id="valor" required ><br/>
-            </label>
-            <label class="label__descripcion" for="descripcion">
-                <span>Descripción del producto</span>
-                 <textarea class="form__descripcion" name="" id="descripcion" cols="30" rows="10" required></textarea><br/>
-            </label>
-            <input class="submit" type="submit" value="Actualizar">
-           
-        </form>
-    </legend>
+    <div class="banner">
+        <div class="banner__contenido">
+            <h3 class="banner__titulo">Febrero promocional</h3>
+            <p class="banner__descripcion">Productos seleccionados con 33% de descuento</p>
+            <button class="banner__consolas">Ver consolas</button>
+        </div>     
     </div>
 
-   
+    <div class="productos">
+        <div class="contenedor__boton">
+            <a href="./adminagregarproducto.html"><button class="agregar">Agregar producto</button></a>
+        </div>
+           
+            <!-- Seccion completa-------------------------------------------------->
+            <div class="titulo__ver">
+                <h1 class="seccion__titulo">Star Wars</h1>
+                <a href="javascript:void(0)" class="vertodo__star_wars" ><p>Ver todo <i class="fa-solid fa-arrow-right" style="color: #2a7ae4;"></i></p></a>
+            </div>
+            <div class="productos__seccion_star">        
+            
+            </div><!-- Fin Seccion completa-------------------------------------------------->
+
+            <!-- Seccion completa-------------------------------------------------->
+            <div class="titulo__ver">
+                <h1 class="seccion__titulo">Consolas</h1>
+                <a href="javascript:void(0)" class="vertodo__consolas" ><p>Ver todo <i class="fa-solid fa-arrow-right" style="color: #2a7ae4;"></i></p></a>
+                </div>
+            <div class="productos__seccion_consolas">        
+           
+            </div><!-- Fin Seccion completa-------------------------------------------------->
+
+            <!-- Seccion completa-------------------------------------------------->
+            <div class="titulo__ver">
+                <h1 class="seccion__titulo">Diversos</h1>
+                <a href="javascript:void(0)" class="vertodo__diversos" ><p>Ver todo <i class="fa-solid fa-arrow-right" style="color: #2a7ae4;"></i></p></a>
+                </div>
+            <div class="productos__seccion_diversos">        
+            
+            
+            </div><!-- Fin Seccion completa-------------------------------------------------->
+
+    </div>
 
 
     <footer class="footer">
@@ -116,12 +122,9 @@
     </div>
     
     <script src="./componentes/index/header/header.js" type="module"></script>
-    <script src="./componentes/index/header/login.js" type="module"></script>
     <script src="./componentes/index/formulario-contacto/formlabels.js" type="module"></script>
     <script src="./componentes/index/productos/productos.js" type="module"></script>
     <script type="module" src="./service/client-service.js" ></script>
-    <script src="./componentes/adminagregarproducto/formulario/formulario.js"></script>
-    <script type="module" src="./controllers/actualizar.controller.js"></script>
     <script type="module" src="./controllers/client.controller.js"></script>
 </body>
 

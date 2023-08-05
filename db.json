@@ -1,0 +1,162 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "star_wars"
+    },
+    {
+      "id": "2",
+      "nombre": "consolas"
+    },
+    {
+      "id": "3",
+      "nombre": "diversos"
+    }
+  ],
+  "productos": [
+    {
+      "id": "2",
+      "titulo": "Cabeza Vader",
+      "valor": 15.99,
+      "descripcion": "Descripción del Producto Star 2",
+      "url_imagen": "./imagenes/Star wars images/cabezadarthvader.png",
+      "categoria_id": "1"
+    },
+    {
+      "id": "6",
+      "titulo": "Muñeco Kylo Ren",
+      "valor": 15.99,
+      "descripcion": "Descripción del Producto Star 2",
+      "url_imagen": "./imagenes/Star wars images/muñecokylo.png",
+      "categoria_id": "1"
+    },
+    {
+      "id": "7",
+      "titulo": "Control X-Box",
+      "valor": 199.99,
+      "descripcion": "Descripción del Producto Consola 1",
+      "url_imagen": "./imagenes/Consolas images/mandoxbox.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "8",
+      "titulo": "Control y consola PS5",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Consolas images/ps5.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "9",
+      "titulo": "Consola Nintendo",
+      "valor": 299.99,
+      "descripcion": "Descripción del Producto Consola 6",
+      "url_imagen": "./imagenes/Consolas images/nintendoconsola.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "10",
+      "titulo": "Control Nintendo Switch",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Consolas images/mandoswitch.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "11",
+      "titulo": "Consola X-BOX",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Consolas images/xboxconsola.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "12",
+      "titulo": "Game Boy Color",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Consolas images/consolagameboy.png",
+      "categoria_id": "2"
+    },
+    {
+      "id": "13",
+      "titulo": "Remera Atari",
+      "valor": 5.99,
+      "descripcion": "Descripción del Producto Diverso 1",
+      "url_imagen": "./imagenes/Diversos images/remerajaponesa.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "14",
+      "titulo": "Remera SNES",
+      "valor": 7.99,
+      "descripcion": "Descripción del Producto Diverso 2",
+      "url_imagen": "./imagenes/Diversos images/Skill.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "15",
+      "titulo": "Muñeco Sonic",
+      "valor": 3.99,
+      "descripcion": "Descripción del Producto Diverso 6",
+      "url_imagen": "./imagenes/Diversos images/muñecosonic.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "16",
+      "titulo": "Radio retro",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Diversos images/despertadoralarma.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "17",
+      "titulo": "Visor RV PS5",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Diversos images/cascoRV.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "18",
+      "titulo": "Traje pikachu",
+      "valor": 249.99,
+      "descripcion": "Descripción del Producto Consola 2",
+      "url_imagen": "./imagenes/Diversos images/disfrazpikachu.png",
+      "categoria_id": "3"
+    },
+    {
+      "id": "d711f1b5-042b-4309-ab37-d2b852e828ae",
+      "url_imagen": "./imagenes/Star wars images/muñecogrogu.png",
+      "categoria_id": "1",
+      "titulo": "Muñeco Grogu",
+      "valor": "75",
+      "descripcion": "Muñeco de silicona de Grogu. La fuerza vuelve a aparecer."
+    },
+    {
+      "id": "bc428d19-b58f-4c14-ba10-e867e93a9cac",
+      "url_imagen": "./imagenes/Star wars images/tazatrooper.png",
+      "categoria_id": "1",
+      "titulo": "Taza trooper",
+      "valor": "50",
+      "descripcion": "Taza de porcelana de la linea trooper. "
+    },
+    {
+      "id": "a5bbb8f0-2bb1-4a2a-8d4b-223e9d62246c",
+      "url_imagen": "./imagenes/Star wars images/muñecoyoda.png",
+      "categoria_id": "1",
+      "titulo": "Muñeco Yoda",
+      "valor": "180",
+      "descripcion": "Muñeco plástico Maestro Yoda. Necesitarlo vas a"
+    },
+    {
+      "id": "7319e764-f298-47ff-a472-382f95d13a3b",
+      "url_imagen": "./imagenes/Star wars images/muñecotrooper.png",
+      "categoria_id": "1",
+      "titulo": "Muñeco trooper",
+      "valor": "180",
+      "descripcion": "Muñeco plástico Trooper. Linea trooper."
+    }
+  ]
+}

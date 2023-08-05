@@ -1,7 +1,6 @@
-
-
 const inputs = document.querySelectorAll("input");
-const textarea = document.querySelector(".form__textarea");
+const select = document.querySelector(".form__categoria");
+const textarea = document.querySelector(".form__descripcion")
 
 inputs.forEach((input)=>{
     input.onfocus = ()=>{
@@ -16,6 +15,19 @@ inputs.forEach((input)=>{
 
     
 })
+
+select.onfocus = ()=>{
+    select.previousElementSibling.classList.add("top");
+   
+}
+
+select.onblur = ()=>{
+    if(select.value.trim().length === 0){
+        select.previousElementSibling.classList.remove("top");
+
+    }
+   
+}
 
 textarea.onfocus = ()=>{
     textarea.previousElementSibling.classList.add("top");

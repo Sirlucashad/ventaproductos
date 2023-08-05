@@ -1,0 +1,244 @@
+.editar__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6.4rem;
+    
+    
+}
+
+.form__legend{
+    max-width: 7rem;
+    max-height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    
+    color: #464646;
+
+}
+
+.form__imagen,
+.form__valor,
+.form__categoria,
+.form__titulo{
+    display: block;    
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 55.9rem;
+    height: 4.8rem;
+    max-height: 5.6rem;
+    border: none;
+    margin-top: 0;    
+    outline: none;
+    
+}
+
+.form__descripcion{
+    display: block;
+    min-width: 2rem;
+    max-width: 100%;
+    width: 55.9rem;
+    max-height: 8.2rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    margin-top: 0rem;
+    outline: none;
+    padding: 1rem 2rem ;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    min-width: 10.3rem;
+    height: 3.5rem;
+    background-color:#2A7AE4;
+    color: #ffffff;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: .2rem;
+}
+
+.submit:hover{
+    background-color: #1467d3;
+}
+
+
+.label__nombre, .label__mensaje{
+    
+    position: relative;
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+.label__descripcion span,
+.label__titulo span,
+.label__valor span,
+.label__categoria span,
+.label__imagen span{
+    position: relative;
+    top: 5rem;
+    left: 1rem;
+    font-size: 1rem;    
+    color: #a19f9f;
+    transition: .15s;
+    max-width: 32.8rem;
+    max-height: 8.2rem;
+}
+
+.label__descripcion span.top,
+.label__titulo span.top,
+.label__valor span.top,
+.label__categoria span.top,
+.label__imagen span.top{
+    position: relative;
+    top: .1rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    color: #000000;    
+    border-radius: .5rem .5rem 0 0;
+}
+
+
+@media (min-width: 768px) {
+    /* Formulario---------------------------------------------------------------------------------------------------------------*/
+
+
+
+.footer_formulario form{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+.form__legend{
+    max-width: 7rem;
+    max-height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2rem;
+    color: #464646;
+
+}
+
+.form__nombre{
+    display: block;    
+   
+    padding: 0px;
+    min-width: 43.4rem;
+    min-height: 5.6rem;
+    max-height: 100%;
+    border: none;
+    margin-top: 0;    
+    outline: none;
+    
+}
+
+.form__textarea{
+   
+    min-width: 43.4rem;
+    min-height: 10rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    margin-top: 0rem;
+    outline: none;
+    padding: 1rem 2rem ;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    min-width: 10.3rem;
+    height: 3.5rem;
+    background-color:#2A7AE4;
+    color: #ffffff;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: .2rem;
+}
+
+.submit:hover{
+    background-color: #1467d3;
+}
+
+
+.label__nombre, .label__mensaje{
+    
+    position: relative;
+    
+
+    
+ 
+}
+
+
+
+
+.label__nombre span{
+    position: relative;
+    top: 2.8rem;
+    left: 1rem;
+    font-size: 1rem;
+    color: #a19f9f;
+    transition: .15s;
+
+}
+
+.label__nombre span.top{
+    position: relative;
+    top: .2rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    background-color:  #EAF2FD;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.label__mensaje span{
+    position: relative;
+    top: 5rem;
+    left: 1rem;
+    font-size: 1rem;
+    color: #a19f9f;
+    transition: .15s;
+    max-width: 32.8rem;
+    max-height: 8.2rem;
+}
+
+.label__mensaje span.top{
+    position: relative;
+    top: .1rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    background-color:  #EAF2FD;
+    border-radius: .5rem .5rem 0 0;
+}
+
+}
+

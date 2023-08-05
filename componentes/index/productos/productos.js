@@ -1,6 +1,6 @@
 
 
-const verTodoStar = document.querySelector('.vertodo__star');
+const verTodoStar = document.querySelector('.vertodo__star_wars');
 const verTodoConsolas = document.querySelector('.vertodo__consolas');
 const verTodoDiversos = document.querySelector('.vertodo__diversos');
 

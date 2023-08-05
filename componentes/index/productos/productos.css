@@ -1,6 +1,8 @@
 
   
-.productos{
+.producto_star:nth-child(-n+2),
+.producto_consolas:nth-child(-n+2),
+.producto_diversos:nth-child(-n+2){
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
@@ -13,23 +15,20 @@
     
 }
 
-.producto{
-    margin: 5rem;
-    
-}
+
 
 .titulo__ver{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 1.2rem;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 
 
-.vertodo__star,
+.vertodo__star_wars,
 .vertodo__consolas,
 .vertodo__diversos{
     text-decoration: none;
@@ -38,13 +37,13 @@
     color: #2A7AE4;
 }
 
-.producto__star:nth-child(-n+2),
-.producto__consolas:nth-child(-n+2),
-.producto__diversos:nth-child(-n+2) {
+.producto:nth-child(-n+2){
     display: block;
   }
 
-.productos__seccion{
+.productos__seccion_star,
+.productos__seccion_consolas,
+.productos__seccion_diversos{
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -55,9 +54,7 @@
   
 }
 
-.producto__star,
-.producto__consolas,
-.producto__diversos{
+.producto{
     display: none;
     width: 15.6rem;
     height: 24.9rem;
@@ -222,6 +219,8 @@
         margin: 5rem;
         
     }
+
+   
     
     .titulo__ver{
         display: flex;
@@ -256,19 +255,41 @@
         display: block;
       }
 
+    .producto__star,
+    .producto__consolas,
+    .producto__diversos {
+        margin: 1.3rem;
+        width: 19rem;
+        position: relative;
+      }
+
    
-    .productos__seccion__contenedor img{
-        height: 17.4rem;
-        width: 17.4rem;
+    .producto__star img,
+    .producto__consolas img,
+    .producto__diversos img{
+        height: 19rem;
+        width: 19rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
         padding: 0px;
-        gap: 8px;
+        margin: 0;
         
         
     }
+    
+    .iconos{
+        position: absolute;
+        top:1rem;
+        right: 1rem;
+        margin: .3rem;
+        font-size: 1.6rem;
+        text-decoration: none;
+        outline: none;
+    }
+
+  
     
     .titulo{
         width: 176px;
@@ -307,4 +328,9 @@
     .ver:hover{
         color: #1c6bd2;
     }
+    }
+
+
+    .agregar{
+
     }

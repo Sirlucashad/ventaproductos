@@ -1,18 +1,22 @@
 
   
-.producto_star:nth-child(-n+2),
-.producto_consolas:nth-child(-n+2),
-.producto_diversos:nth-child(-n+2){
-    display: flex;
+.producto__star,
+.producto__consolas,
+.producto__diversos{
+    display: block;
     flex-direction: column;
-    margin-top: 5rem;
-    margin: 5rem auto;
+  
+    margin: 1.4rem auto;
     
    
    
     
     
     
+}
+
+.ocultar{
+    display: none;
 }
 
 
@@ -54,14 +58,6 @@
   
 }
 
-.producto{
-    display: none;
-    width: 15.6rem;
-    height: 24.9rem;
-    margin: .5rem;
-    margin-top: 1.5rem;
-    
-}
 
 
 .producto__star img,
@@ -150,12 +146,6 @@
 }
 
 
-
-.producto__star:nth-child(-n+4),
-.producto__consolas:nth-child(-n+4),
-.producto__diversos:nth-child(-n+4) {
-    display: block;
-  }
 
 
 
@@ -249,11 +239,7 @@
       
     }
     
-    .producto__star:nth-child(-n+6),
-    .producto__consolas:nth-child(-n+6),
-    .producto__diversos:nth-child(-n+6) {
-        display: block;
-      }
+  
 
     .producto__star,
     .producto__consolas,
@@ -279,15 +265,7 @@
         
     }
     
-    .iconos{
-        position: absolute;
-        top:1rem;
-        right: 1rem;
-        margin: .3rem;
-        font-size: 1.6rem;
-        text-decoration: none;
-        outline: none;
-    }
+   
 
   
     
@@ -330,7 +308,3 @@
     }
     }
 
-
-    .agregar{
-
-    }

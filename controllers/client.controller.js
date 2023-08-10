@@ -11,6 +11,10 @@ const crearNuevoProducto = (id,url_imagen,categoria_id,titulo,valor,descripcion)
         contenedorProducto.classList.add("producto__consolas")
       }else{contenedorProducto.classList.add("producto__diversos")}
 
+      
+const productosStar = document.querySelectorAll('.producto__star');
+console.log(productosStar)
+
     
     let contenido;
     if(window.location.pathname.includes("/adminindex.html")){

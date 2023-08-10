@@ -4,9 +4,10 @@ const verTodoStar = document.querySelector('.vertodo__star_wars');
 const verTodoConsolas = document.querySelector('.vertodo__consolas');
 const verTodoDiversos = document.querySelector('.vertodo__diversos');
 
-const productosStar = document.querySelectorAll('.producto__star');
-const productosConsolas = document.querySelectorAll('.producto__consolas');
-const productosDiversos = document.querySelectorAll('.producto__diversos');
+const productosConsolas = document.querySelectorAll('.producto__consolas'); //Nota: crear otro metodo. Este funcionaba cuando los productos estaban                                                                           
+const productosDiversos = document.querySelectorAll('.producto__diversos');//      reflejados en la estructura HTML, pero luego, al ser
+                                                                           //      creados dinamicamente ya no son seleccionables de esta manera.
+
 
 let mostrarTodoStar = false;
 let mostrarTodoConsolas = false;

@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    min-width: 36rem;
+   
     min-height: 55rem; 
-    max-width: 100%;
+    width: 100%;
     background: #EAF2FD;
  
    
@@ -96,9 +96,9 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center; 
-        min-width: 36rem;
+       
         min-height: 36.4rem; 
-        max-width: 100%;
+        width: 100%;
         background: #EAF2FD;
      
        
@@ -208,10 +208,10 @@
         flex-direction: row;
        
         align-items: center; 
-        min-width: 36rem;
+       
         min-height: 36.4rem; 
         height: auto;
-        max-width: 100%;
+        width: 100%;
         background: #EAF2FD;
      
        
@@ -275,7 +275,7 @@
             flex-direction: row;
            
             align-items: center; 
-            min-width: 36rem;
+           
             min-height: 36.4rem; 
             max-width: 100%;
             background: #EAF2FD;

@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("/./imagenes/banner.jpg");
+    background-image: url("./../../../imagenes/banner.jpg");
     height: 18.4rem;
     width: 100%;
     background-position:center;
@@ -54,7 +54,7 @@
 
 @media (min-width: 768px) {
     .banner{
-        background-image: url("/./imagenes/banner.jpg");
+        background-image: url("./../../../imagenes/banner.jpg");
         height: 35.2rem;
         background-position:center;
         background-size: cover;
@@ -108,7 +108,7 @@
 
 @media (min-width: 1140px) {
     .banner{
-        background-image: url("/./imagenes/banner.jpg");
+        background-image: url("./../../../imagenes/banner.jpg");
         height: 35.2rem;
         background-position:center;
         background-size: cover;
